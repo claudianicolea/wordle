@@ -15,6 +15,7 @@ let targetWord = ""; // word to be guessed
 let currentGuess = ""; // current word typed by player
 let attempts = 0; // attempts count
 const maxAttempts = 6;
+
 const initialBackgroundColor = "var(--initialBackgroundColor)",
 partialBackgroundColor = "var(--partialBackgroundColor)",
 wrongBackgroundColor = "var(--wrongBackgroundColor)",
