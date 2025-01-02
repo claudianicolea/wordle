@@ -1,0 +1,103 @@
+:root {
+    --initialBackgroundColor: #fbd6ce;
+    --partialBackgroundColor: #f1d96e;
+    --wrongBackgroundColor: #c8c8c8;
+    --correctBackgroundColor: #97e595;
+    --textColor: #624542;
+    --darkPink: #D9A8A4;
+}
+
+body {
+    font-family: system-ui;
+    font-size: 20px;
+    margin: 0;
+}
+
+#Header {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#Header p {
+    color: var(--darkPink);
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+
+    transition: 0.5s;
+}
+
+#Header p:hover {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}
+
+#Gameboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 40px 0;
+}
+
+.Board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    width: 22vw;
+    height: 50vh;
+}
+
+.Cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--darkPink);
+    border-radius: 10px;
+    background-color: var(--initialBackgroundColor);
+    font-weight: bold;
+    font-size: 125%;
+    color: var(--textColor);
+    text-transform: uppercase;
+
+    transition: 0.5s;
+}
+
+.Cell:hover {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}
+
+.Keyboard {
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: var(--initialBackgroundColor);
+    border-radius: 10px;
+}
+
+.Keyboard-Row {
+    display: flex;
+    justify-content: center;
+}
+
+.Key {
+    background-color: var(--darkPink);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--textColor);
+    margin: 5px;
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--textColor);
+
+    transition: 0.5s;
+}
+
+.Key:hover {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}

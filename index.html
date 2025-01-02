@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+    <title>Wordle</title>
+
+    <!-- css -->
+    <link rel = "stylesheet" href = "wordle-styles.css">
+</head>
+
+<body>
+    <section id = "Header">
+        <p>Hello there!</p>
+        <p>Welcome to Wordle, by Nicole!</p>
+    </section>
+
+    <section id = "Gameboard">
+        <div class = "Board">
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+            <div class = "Cell"></div>
+        </div>
+    </section>
+
+    <section id = "Gamekeyboard">
+        <div class = "Keyboard">
+            <div class = "Keyboard-Row">
+                <button class = "Key" id = "Q" onclick = "typeLetter('Q')">Q</button>
+                <button class = "Key" id = "W" onclick = "typeLetter('W')">W</button>
+                <button class = "Key" id = "E" onclick = "typeLetter('E')">E</button>
+                <button class = "Key" id = "R" onclick = "typeLetter('R')">R</button>
+                <button class = "Key" id = "T" onclick = "typeLetter('T')">T</button>
+                <button class = "Key" id = "Y" onclick = "typeLetter('Y')">Y</button>
+                <button class = "Key" id = "U" onclick = "typeLetter('U')">U</button>
+                <button class = "Key" id = "I" onclick = "typeLetter('I')">I</button>
+                <button class = "Key" id = "O" onclick = "typeLetter('O')">O</button>
+                <button class = "Key" id = "P" onclick = "typeLetter('P')">P</button>
+            </div>
+
+            <div class = "Keyboard-Row">
+                <button class = "Key" id = "A" onclick = "typeLetter('A')">A</button>
+                <button class = "Key" id = "S" onclick = "typeLetter('S')">S</button>
+                <button class = "Key" id = "D" onclick = "typeLetter('D')">D</button>
+                <button class = "Key" id = "F" onclick = "typeLetter('F')">F</button>
+                <button class = "Key" id = "G" onclick = "typeLetter('Q')">G</button>
+                <button class = "Key" id = "H" onclick = "typeLetter('H')">H</button>
+                <button class = "Key" id = "J" onclick = "typeLetter('J')">J</button>
+                <button class = "Key" id = "K" onclick = "typeLetter('K')">K</button>
+                <button class = "Key" id = "L" onclick = "typeLetter('L')">L</button>
+            </div>
+            
+            <div class = "Keyboard-Row">
+                <button class = "Key" id = "Z" onclick = "typeLetter('e')">ENTER</button>
+                <button class = "Key" id = "Z" onclick = "typeLetter('Z')">Z</button>
+                <button class = "Key" id = "X" onclick = "typeLetter('X')">X</button>
+                <button class = "Key" id = "C" onclick = "typeLetter('C')">C</button>
+                <button class = "Key" id = "V" onclick = "typeLetter('V')">V</button>
+                <button class = "Key" id = "B" onclick = "typeLetter('B')">B</button>
+                <button class = "Key" id = "N" onclick = "typeLetter('N')">N</button>
+                <button class = "Key" id = "M" onclick = "typeLetter('M')">M</button>
+                <button class = "Key" id = "Z" onclick = "typeLetter('d')">DELETE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- javascript-->
+    <script src = "wordle-script.js"></script>
+</body>
