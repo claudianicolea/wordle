@@ -44,8 +44,8 @@ body {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 10px;
-    width: 22vw;
-    height: 50vh;
+    width: 300px;
+    height: 400px;
 }
 
 .Cell {
